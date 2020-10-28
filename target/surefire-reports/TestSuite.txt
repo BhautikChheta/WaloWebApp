@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 63.15 s <<< FAILURE! - in TestSuite
+setup(qa.walo.testcases.ContactPageTest)  Time elapsed: 5.799 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="#sidewidgetarea" aria-label="Navigation Menu" aria-expanded="false" class="closed">...</a> is not clickable at point (1220, 70). Other element would receive the click: <div class="loading-icon none" style="transition: opacity 500ms ease 0s; opacity: 0;">...</div>
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Users-MacBook-Pro.local', ip: '2607:fea8:d21:b90:0:0:0:5cd9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/xd/pfq2nrjd1db...}, goog:chromeOptions: {debuggerAddress: localhost:54674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ca7d9cd80a8824268311b3c0d75a0c8b
+	at qa.walo.testcases.ContactPageTest.setup(ContactPageTest.java:26)
+
+header1test(qa.walo.testcases.HomePageTest)  Time elapsed: 0.065 s  <<< FAILURE!
+java.lang.AssertionError: expected [Teach your kids the value of money] but found []
+	at qa.walo.testcases.HomePageTest.header1test(HomePageTest.java:37)
+

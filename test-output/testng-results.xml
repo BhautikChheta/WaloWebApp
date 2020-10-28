@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-26T15:03:15 EDT" name="Walo Test Automation Suite" finished-at="2020-10-26T15:04:13 EDT" duration-ms="57746">
+    <groups>
+    </groups>
+    <test started-at="2020-10-26T15:03:15 EDT" name="Walo Regression Test Cases" finished-at="2020-10-26T15:04:13 EDT" duration-ms="57746">
+      <class name="qa.walo.testcases.ContactPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.walo.testcases.ContactPageTest@2cbb3d47]" started-at="2020-10-26T15:03:44 EDT" name="setup" finished-at="2020-10-26T15:03:56 EDT" duration-ms="12006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyContactPageTitleTest()[pri:0, instance:qa.walo.testcases.ContactPageTest@2cbb3d47]" started-at="2020-10-26T15:03:56 EDT" name="verifyContactPageTitleTest" finished-at="2020-10-26T15:03:56 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.walo.testcases.ContactPageTest@2cbb3d47]" started-at="2020-10-26T15:03:56 EDT" name="tearDown" finished-at="2020-10-26T15:03:56 EDT" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.walo.testcases.ContactPageTest@2cbb3d47]" started-at="2020-10-26T15:03:56 EDT" name="setup" finished-at="2020-10-26T15:04:13 EDT" duration-ms="16203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyContactPageURLTest()[pri:0, instance:qa.walo.testcases.ContactPageTest@2cbb3d47]" started-at="2020-10-26T15:04:13 EDT" name="verifyContactPageURLTest" finished-at="2020-10-26T15:04:13 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactPageURLTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.walo.testcases.ContactPageTest@2cbb3d47]" started-at="2020-10-26T15:04:13 EDT" name="tearDown" finished-at="2020-10-26T15:04:13 EDT" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.walo.testcases.ContactPageTest -->
+      <class name="qa.walo.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.walo.testcases.HomePageTest@7fc229ab]" started-at="2020-10-26T15:03:15 EDT" name="setup" finished-at="2020-10-26T15:03:24 EDT" duration-ms="9436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HomePageTitleTest()[pri:1, instance:qa.walo.testcases.HomePageTest@7fc229ab]" started-at="2020-10-26T15:03:24 EDT" name="HomePageTitleTest" finished-at="2020-10-26T15:03:25 EDT" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.walo.testcases.HomePageTest@7fc229ab]" started-at="2020-10-26T15:03:25 EDT" name="tearDown" finished-at="2020-10-26T15:03:25 EDT" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.walo.testcases.HomePageTest@7fc229ab]" started-at="2020-10-26T15:03:25 EDT" name="setup" finished-at="2020-10-26T15:03:30 EDT" duration-ms="4827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="appLogoTest()[pri:2, instance:qa.walo.testcases.HomePageTest@7fc229ab]" started-at="2020-10-26T15:03:30 EDT" name="appLogoTest" finished-at="2020-10-26T15:03:30 EDT" duration-ms="101" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at qa.walo.testcases.HomePageTest.appLogoTest(HomePageTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.walo.testcases.HomePageTest@7fc229ab]" started-at="2020-10-26T15:03:30 EDT" name="tearDown" finished-at="2020-10-26T15:03:30 EDT" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.walo.testcases.HomePageTest@7fc229ab]" started-at="2020-10-26T15:03:30 EDT" name="setup" finished-at="2020-10-26T15:03:35 EDT" duration-ms="5458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="header1test()[pri:3, instance:qa.walo.testcases.HomePageTest@7fc229ab]" started-at="2020-10-26T15:03:35 EDT" name="header1test" finished-at="2020-10-26T15:03:35 EDT" duration-ms="31" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Teach your kids the value of money] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Teach your kids the value of money] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at qa.walo.testcases.HomePageTest.header1test(HomePageTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- header1test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.walo.testcases.HomePageTest@7fc229ab]" started-at="2020-10-26T15:03:35 EDT" name="tearDown" finished-at="2020-10-26T15:03:35 EDT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.walo.testcases.HomePageTest@7fc229ab]" started-at="2020-10-26T15:03:35 EDT" name="setup" finished-at="2020-10-26T15:03:40 EDT" duration-ms="4326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToAboutPageTest()[pri:4, instance:qa.walo.testcases.HomePageTest@7fc229ab]" started-at="2020-10-26T15:03:40 EDT" name="navigateToAboutPageTest" finished-at="2020-10-26T15:03:44 EDT" duration-ms="4446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAboutPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.walo.testcases.HomePageTest@7fc229ab]" started-at="2020-10-26T15:03:44 EDT" name="tearDown" finished-at="2020-10-26T15:03:44 EDT" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.walo.testcases.HomePageTest -->
+    </test> <!-- Walo Regression Test Cases -->
+  </suite> <!-- Walo Test Automation Suite -->
+</testng-results>

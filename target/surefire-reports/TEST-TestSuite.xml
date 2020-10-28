@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="63.15" tests="8" errors="0" skipped="2" failures="2">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/bhautik/eclipse-workspace/Walo/target/test-classes:/Users/bhautik/eclipse-workspace/Walo/target/classes:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/bhautik/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/bhautik/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/bhautik/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/bhautik/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/bhautik/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/bhautik/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/bhautik/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/bhautik/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/bhautik/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/bhautik/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/bhautik/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/bhautik/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/bhautik/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/bhautik/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/bhautik/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/bhautik/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/bhautik/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/bhautik/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/bhautik/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/bhautik/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/bhautik/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/bhautik/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/bhautik/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/bhautik/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/bhautik/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/bhautik/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/bhautik/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/bhautik/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/bhautik/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/bhautik/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/bhautik/.m2/repository/org/apache/poi/poi-scratchpad/4.1.2/poi-scratchpad-4.1.2.jar:/Users/bhautik/.m2/repository/org/apache/poi/ooxml-schemas/1.4/ooxml-schemas-1.4.jar:/Users/bhautik/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/Users/bhautik/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/bhautik/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/bhautik/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/bhautik/eclipse-workspace/Walo/target/surefire/surefirebooter605246341944505547.jar /Users/bhautik/eclipse-workspace/Walo/target/surefire 2020-10-27T16-10-08_101-jvmRun1 surefire8024091235755554619tmp surefire_016679437340557396270tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/bhautik/eclipse-workspace/Walo/target/test-classes:/Users/bhautik/eclipse-workspace/Walo/target/classes:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/bhautik/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/bhautik/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/bhautik/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/bhautik/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/bhautik/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/bhautik/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/bhautik/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/bhautik/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/bhautik/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/bhautik/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/bhautik/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/bhautik/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/bhautik/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/bhautik/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/bhautik/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/bhautik/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/bhautik/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/bhautik/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/bhautik/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/bhautik/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/bhautik/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/bhautik/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/bhautik/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/bhautik/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/bhautik/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/bhautik/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/bhautik/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/bhautik/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/bhautik/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/bhautik/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/bhautik/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/bhautik/.m2/repository/org/apache/poi/poi-scratchpad/4.1.2/poi-scratchpad-4.1.2.jar:/Users/bhautik/.m2/repository/org/apache/poi/ooxml-schemas/1.4/ooxml-schemas-1.4.jar:/Users/bhautik/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/Users/bhautik/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/bhautik/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/bhautik/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/bhautik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/bhautik/eclipse-workspace/Walo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/bhautik/eclipse-workspace/Walo/target/surefire/surefirebooter605246341944505547.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="bhautik"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/bhautik/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/xd/pfq2nrjd1dbbbdlvjpxsxqww0000gp/T/"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="/Users/bhautik/eclipse-workspace/Walo"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/bhautik/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="verifyContactPageTitleTest" classname="qa.walo.testcases.ContactPageTest" time="0.011"/>
+  <testcase name="setup" classname="qa.walo.testcases.ContactPageTest" time="5.799">
+    <failure message="element click intercepted: Element &lt;a href=&quot;#sidewidgetarea&quot; aria-label=&quot;Navigation Menu&quot; aria-expanded=&quot;false&quot; class=&quot;closed&quot;&gt;...&lt;/a&gt; is not clickable at point (1220, 70). Other element would receive the click: &lt;div class=&quot;loading-icon none&quot; style=&quot;transition: opacity 500ms ease 0s; opacity: 0;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=86.0.4240.111)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Users-MacBook-Pro.local&apos;, ip: &apos;2607:fea8:d21:b90:0:0:0:5cd9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;14.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/xd/pfq2nrjd1db...}, goog:chromeOptions: {debuggerAddress: localhost:54674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ca7d9cd80a8824268311b3c0d75a0c8b" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="#sidewidgetarea" aria-label="Navigation Menu" aria-expanded="false" class="closed">...</a> is not clickable at point (1220, 70). Other element would receive the click: <div class="loading-icon none" style="transition: opacity 500ms ease 0s; opacity: 0;">...</div>
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Users-MacBook-Pro.local', ip: '2607:fea8:d21:b90:0:0:0:5cd9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/xd/pfq2nrjd1db...}, goog:chromeOptions: {debuggerAddress: localhost:54674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ca7d9cd80a8824268311b3c0d75a0c8b
+	at qa.walo.testcases.ContactPageTest.setup(ContactPageTest.java:26)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 29734
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct. 27, 2020 4:10:29 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactPageURLTest" classname="qa.walo.testcases.ContactPageTest" time="0">
+    <skipped message="element click intercepted: Element &lt;a href=&quot;#sidewidgetarea&quot; aria-label=&quot;Navigation Menu&quot; aria-expanded=&quot;false&quot; class=&quot;closed&quot;&gt;...&lt;/a&gt; is not clickable at point (1220, 70). Other element would receive the click: &lt;div class=&quot;loading-icon none&quot; style=&quot;transition: opacity 500ms ease 0s; opacity: 0;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=86.0.4240.111)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Users-MacBook-Pro.local&apos;, ip: &apos;2607:fea8:d21:b90:0:0:0:5cd9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;14.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/xd/pfq2nrjd1db...}, goog:chromeOptions: {debuggerAddress: localhost:54674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ca7d9cd80a8824268311b3c0d75a0c8b"/>
+  </testcase>
+  <testcase name="tearDown" classname="qa.walo.testcases.ContactPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="HomePageTitleTest" classname="qa.walo.testcases.HomePageTest" time="0.006"/>
+  <testcase name="appLogoTest" classname="qa.walo.testcases.HomePageTest" time="0.023"/>
+  <testcase name="header1test" classname="qa.walo.testcases.HomePageTest" time="0.065">
+    <failure message="expected [Teach your kids the value of money] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Teach your kids the value of money] but found []
+	at qa.walo.testcases.HomePageTest.header1test(HomePageTest.java:37)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 34463
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct. 27, 2020 4:10:53 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="navigateToAboutPageTest" classname="qa.walo.testcases.HomePageTest" time="4.349"/>
+</testsuite>

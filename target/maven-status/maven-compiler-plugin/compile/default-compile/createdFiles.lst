@@ -1,0 +1,6 @@
+qa/walo/pages/BetaPage.class
+qa/walo/pages/BlogPage.class
+qa/walo/pages/ContactPage.class
+qa/walo/pages/HomePage.class
+qa/walo/pages/AboutPage.class
+qa/walo/base/TestBase.class

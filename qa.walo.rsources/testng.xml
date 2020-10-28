@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Walo Test Automation Suite" verbose="1" >
+  <test name="Walo Regression Test Cases" >
+    <classes>
+       <class name="qa.walo.testcases.HomePageTest"/>
+       <class name="qa.walo.testcases.ContactPageTest"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Walo Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Walo Regression Test Cases(failed)">
+    <classes>
+      <class name="qa.walo.testcases.HomePageTest">
+        <methods>
+          <include name="header1test"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="appLogoTest"/>
+        </methods>
+      </class> <!-- qa.walo.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Walo Regression Test Cases(failed) -->
+</suite> <!-- Failed suite [Walo Test Automation Suite] -->
